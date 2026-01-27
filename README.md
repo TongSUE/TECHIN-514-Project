@@ -112,3 +112,20 @@ The devices talk to each other using **ESP-NOW**.
 * The **Stepper Motor** moves the needle to show how confident the match is (High vs. Low accuracy).
 
 <img src="./images/workflow.png" height="200" alt="Display device">
+
+---
+# Electrical Schematics
+
+## Sensing
+
+<img src="./images/schematics_sensing.png" height="400" alt="Electrical schematics of Sensing device">
+
+## Display
+
+<img src="./images/schematics_display.png" height="400" alt="Electrical schematics of Display device">
+
+---
+# BOM
+
+- [Sensing BOM](./schematics/Sensing/Sensing.csv)
+- [Display BOM](./schematics/Display/Display.csv)
