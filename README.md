@@ -98,14 +98,17 @@ The split-PCB architecture is implemented to allow the sensor to sit perpendicul
 * **Connection:** The Main Board and Sensor Tip are linked via a flexible **1x5 Connector** carrying 3.3V, GND, SDA, SCL, and LED Control.
 * **Power:** The battery connects to the tail of the Main Board via a **1x2 Connector**.
 
+### **Custom PCB Screenshots**
 <img src="./images/custom_PCB.png" height="400" alt="Custom PCB Layout">
 
 ## Circuit Schematics
 
-**Sensing Device Schematic:**
+### **Sensing Device Schematic**
+
 <img src="./images/schematics_sensing.png" height="400" alt="Electrical schematics of Sensing device">
 
-**Display Device Schematic:**
+### **Display Device Schematic**
+
 <img src="./images/schematics_display.png" height="400" alt="Electrical schematics of Display device">
 
 ---
