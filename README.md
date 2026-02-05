@@ -99,7 +99,7 @@ The split-PCB architecture is implemented to allow the sensor to sit perpendicul
 * **Power:** The battery connects to the tail of the Main Board via a **1x2 Connector**.
 
 ### **Custom PCB Screenshots**
-<img src="./images/custom_PCB.png" height="400" alt="Custom PCB Layout">
+<img src="./custom PCB/PCB design screenshots.png" height="350" alt="Custom PCB Layout">
 
 ## Circuit Schematics
 
