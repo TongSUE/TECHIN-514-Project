@@ -1,4 +1,4 @@
-26776183895956242
+26779627543380256
 ADP3331
 SOT95P280X145-6N
 
@@ -61382,7 +61382,7 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-ESP32_Xiao_Seeed
+ESP32_Xiao_Seeed_GIX
 XIAO_ESP32
 
 
@@ -106420,3 +106420,17 @@ Varistor VF
 0
 2
 2
+Xiao_Seeed_ESP32C3
+ESP32-C3-MINI-1
+ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
+ESP32-C3
+0
+61
+53
+Xiao_Seeed_ESP32C3
+MOUDLE14P-SMD-2.54-21X17.8MM
+
+
+0
+14
+14
