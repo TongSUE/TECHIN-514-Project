@@ -117,3 +117,8 @@ The split-PCB architecture is implemented to allow the sensor to sit perpendicul
 
 - [Sensing BOM](./schematics/Sensing/Sensing.csv)
 - [Display BOM](./schematics/Display/Display.csv)
+
+---
+
+# Battery Estimate
+- [Simple Power Model (Google Doc)](https://docs.google.com/spreadsheets/d/19ngwSyrM9dyAIHHAB65ps8SqUUKRAjS5MIs19pbbb7s/edit?usp=sharing)
