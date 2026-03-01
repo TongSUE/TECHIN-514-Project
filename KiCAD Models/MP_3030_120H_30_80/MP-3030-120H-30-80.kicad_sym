@@ -1,0 +1,146 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MP-3030-120H-30-80" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -5.08 9.5758 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MP-3030-120H-30-80" (id 1) (at -5.08 -8.89 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MP-3030-120H-30-80:LED_MP-3030-120H-30-80" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "Rev 03" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "0.66 mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Luminus Devices Inc." (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MP-3030-120H-30-80_0_0"
+      (polyline
+        (pts (xy -1.27 6.604) (xy -1.27 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 5.08) (xy -1.27 3.556)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 3.556) (xy 1.27 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 5.08) (xy -1.27 6.604)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 6.604) (xy 1.27 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 5.08) (xy 1.27 3.556)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 5.08) (xy -5.08 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.159 9.017) (xy 0.381 6.985)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.9144 9.1186) (xy -0.8636 7.0866)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 1.27 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.127 8.763)
+          (xy 0.6985 8.255)
+          (xy 1.0795 9.271)
+          (xy 0.127 8.763)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.397 8.6995)
+          (xy 1.9685 8.1915)
+          (xy 2.3495 9.271)
+          (xy 1.397 8.6995)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -1.27 -3.556) (xy -1.27 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -5.08) (xy -1.27 -6.604)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -6.604) (xy 1.27 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -5.08) (xy -1.27 -3.556)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -3.556) (xy 1.27 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -5.08) (xy 1.27 -6.604)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -5.08) (xy -5.08 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.159 -1.143) (xy 0.381 -3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.9144 -1.0414) (xy -0.8636 -3.0734)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 1.27 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.127 -1.397)
+          (xy 0.6985 -1.905)
+          (xy 1.0795 -0.889)
+          (xy 0.127 -1.397)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.397 -1.4605)
+          (xy 1.9685 -1.9685)
+          (xy 2.3495 -0.889)
+          (xy 1.397 -1.4605)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -5.08 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 5.08 5.08)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

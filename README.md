@@ -99,26 +99,45 @@ The split-PCB architecture is implemented to allow the sensor to sit perpendicul
 * **Power:** The battery connects to the tail of the Main Board via a **1x2 Connector**.
 
 ### **Custom PCB Screenshots**
-<img src="./custom PCB/PCB design screenshots.png" height="350" alt="Custom PCB Layout">
+- Sensor Tip
+<img src="/images/sensor_tip_pcb_v3.png" height="350" alt="Custom PCB Layout">
+- Main Board
+
 
 ## Circuit Schematics
 
 ### **Sensing Device Schematic**
+- Sensor Tip
+<img src="./images/schematics_sensing_sensor_tip_v3.png" height="400" alt="Electrical schematics of Sensing device">
 
-<img src="./images/schematics_sensing.png" height="400" alt="Electrical schematics of Sensing device">
+- Main Board
+<img src="./images/schematics_sensing_main_board_v3.png" height="400" alt="Electrical schematics of Sensing device">
 
 ### **Display Device Schematic**
 
-<img src="./images/schematics_display.png" height="400" alt="Electrical schematics of Display device">
+<img src="./images/display_v2.png" height="400" alt="Electrical schematics of Display device">
 
 ---
 
 # BOM
 
-- [Sensing BOM](./schematics/Sensing/Sensing.csv)
-- [Display BOM](./schematics/Display/Display.csv)
+- [Sensing - Sensor Tip BOM](./schematics/Sensing_v3/sensor%20tip/sensor%20tip.csv)
+- [Sensing - Main Board BOM](./schematics/Sensing_v2/sensor%20main%20board.csv)
+- [Display BOM](./schematics/Display_v2/Display_v2.csv)
 
 ---
 
 # Battery Estimate
 - [Simple Power Model (Google Doc)](https://docs.google.com/spreadsheets/d/19ngwSyrM9dyAIHHAB65ps8SqUUKRAjS5MIs19pbbb7s/edit?usp=sharing)
+
+---
+
+# Enclosure Design
+- [Enclosure Design](./schematics/enclosure/)
+
+### Sensing Device
+<img src="./enclosure/sensing_enclosure_1.png" height="400" alt="Enclosure Design of Sensing device">
+
+<img src="./enclosure/sensing_enclosure_2.png" height="400" alt="Enclosure Design of Sensing device">
+
+---

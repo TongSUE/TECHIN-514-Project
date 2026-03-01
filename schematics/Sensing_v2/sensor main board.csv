@@ -1,0 +1,6 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"BT1","1","Battery_Cell","","","","Battery:BatteryHolder_Keystone_2466_1xAAA","~"
+"J3","1","Conn_01x04_Pin","","","","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"SW1","1","SW_SPST","","","","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~"
+"SW2","1","SW_Push","","","","Button_Switch_SMD:SW_MEC_5GSH9","~"
+"U3","1","ESP32C3_Xiao","","","","ESP32_Xiao_Seeed_GIX:XIAO_ESP32",""
