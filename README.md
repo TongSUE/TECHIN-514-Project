@@ -22,15 +22,15 @@ This is a handheld tool shaped like a marker pen. It utilizes a custom split-PCB
     This thumb-sized microcontroller is selected for its compact footprint and built-in ESP-NOW capabilities. It fits perfectly inside the pen shaft.
 
 * **Sensor Architecture: Split Custom PCB**
-    To accommodate the pen's geometry, the circuit is split into two boards connected by a **1x5 Pin Header**:
-    1.  **Motherboard (Main):** Vertically mounted inside the pen. Houses the MCU, battery pads, and switch.
-    2.  **Daughterboard (Tip):** A circular PCB mounted horizontally at the tip. Houses the **TCS34725 Sensor** and **LEDs** to ensure the sensor faces the paper perpendicularly.
+    To accommodate the pen's geometry, the circuit is split into two boards connected by a **1x4 Pin Header**:
+    1.  **Main Board:** Vertically mounted inside the pen. Houses the MCU, battery pads, and switch.
+    2.  **Sensor Tip:** A circular PCB mounted horizontally at the tip. Houses the **AS7341 Sensor** and **LEDs** to ensure the sensor faces the paper perpendicularly.
 
 * **Input: Tactile Button**
     Acts as a "shutter" trigger.
 
-* **Power: Li-Po Battery (402030 size)**
-    A cylindrical/prismatic lithium battery that connects to the motherboard via a **1x2 Direct Solder Pad/Header**.
+* **Power: Li-Po Battery (AAA size)**
+    A cylindrical/prismatic lithium battery that connects to the motherboard via a battery holder.
 
 * **Power Switch: Slide Switch**
     A side-mounted switch to cut off power completely.
@@ -55,8 +55,8 @@ This is a desktop base that receives the color data. It features an OLED screen 
 * **Color Output: WS2812B RGB LED**
     A programmable NeoPixel LED to visually visually recreate the scanned color.
 
-* **Motor: 28BYJ-48 Stepper Motor & ULN2003 Driver**
-    Indicates the "Confidence Level" (Euclidean distance) of the color match. The ULN2003 driver handles the high current required by the motor.
+* **Motor: x27_168 Stepper Motor & ULN2003 Driver**
+    Indicates the "Confidence Level" (Euclidean distance) of the color match.
 
 * **Power: 18650 Li-Ion Battery & MT3608 Boost Converter**
     Provides long-lasting power, boosted to 5V for the motor and LEDs.
@@ -99,9 +99,12 @@ The split-PCB architecture is implemented to allow the sensor to sit perpendicul
 * **Power:** The battery connects to the tail of the Main Board via a **1x2 Connector**.
 
 ### **Custom PCB Screenshots**
-- Sensor Tip
+- Sensing - Sensor Tip
 <img src="/images/sensor_tip_pcb_v3.png" height="350" alt="Custom PCB Layout">
-- Main Board
+- Sensing - Main Board
+<img src="/images/sensor_main_board_pcb_v3.png" height="350" alt="Custom PCB Layout">
+- Display
+<img src="/images/display_pcb_v2.png" height="350" alt="Custom PCB Layout">
 
 
 ## Circuit Schematics
@@ -133,7 +136,7 @@ The split-PCB architecture is implemented to allow the sensor to sit perpendicul
 ---
 
 # Enclosure Design
-- [Enclosure Design](./schematics/enclosure/)
+- [Enclosure Design](./enclosure/)
 
 ### Sensing Device
 <img src="./enclosure/sensing_enclosure_1.png" height="400" alt="Enclosure Design of Sensing device">
