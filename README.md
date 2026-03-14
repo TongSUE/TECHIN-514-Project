@@ -24,7 +24,7 @@ This is a handheld tool shaped like a marker pen. It utilizes a custom split-PCB
 * **Sensor Architecture: Split Custom PCB**
     To accommodate the pen's geometry, the circuit is split into two boards connected by a **1x4 Pin Header**:
     1.  **Main Board:** Vertically mounted inside the pen. Houses the MCU, battery pads, and switch.
-    2.  **Sensor Tip:** A circular PCB mounted horizontally at the tip. Houses the **AS7341 Sensor** and **LEDs** to ensure the sensor faces the paper perpendicularly.
+    2.  **Sensor Tip:** A circular PCB mounted horizontally at the tip. Houses the **TCS34725 Sensor** and **LEDs** to ensure the sensor faces the paper perpendicularly.
 
 * **Input: Tactile Button**
     Acts as a "shutter" trigger.
@@ -52,13 +52,13 @@ This is a desktop base that receives the color data. It features an OLED screen 
 * **Display: 0.96" OLED Screen (SSD1306 Driver)**
     Displays the Hex/RGB codes via I2C interface.
 
-* **Color Output: WS2812B RGB LED**
+* **Color Output: RGB LED**
     A programmable NeoPixel LED to visually visually recreate the scanned color.
 
-* **Motor: x27_168 Stepper Motor & ULN2003 Driver**
+* **Motor: x27_168 Stepper Motor**
     Indicates the "Confidence Level" (Euclidean distance) of the color match.
 
-* **Power: 18650 Li-Ion Battery & MT3608 Boost Converter**
+* **Power: 18650 Li-Ion Battery**
     Provides long-lasting power, boosted to 5V for the motor and LEDs.
 
 ---
@@ -81,7 +81,7 @@ The devices talk to each other using **ESP-NOW**.
 5.  **Processing (DSP/ML):** The Base calculates the **Euclidean Distance** between the scanned color and a stored color library (KNN algorithm).
 6.  **Output:**
     * The **OLED** shows the color code.
-    * The **WS2812B LED** lights up in that color.
+    * The **Neopixel LED** lights up in that color.
     * The **Stepper Motor** moves the needle to show the confidence level.
 
 <img src="./images/workflow.png" height="200" alt="Workflow">
@@ -142,5 +142,11 @@ The split-PCB architecture is implemented to allow the sensor to sit perpendicul
 <img src="./enclosure/sensing_enclosure_1.png" height="400" alt="Enclosure Design of Sensing device">
 
 <img src="./enclosure/sensing_enclosure_2.png" height="400" alt="Enclosure Design of Sensing device">
+
+
+### Display Device
+<img src="./enclosure/display_enclosure_1.png" height="400" alt="Enclosure Design of Sensing device">
+
+<img src="./enclosure/display_enclosure_2.png" height="400" alt="Enclosure Design of Sensing device">
 
 ---
